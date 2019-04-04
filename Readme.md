@@ -2,8 +2,8 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
-* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx](./VB/Default.aspx))
-* [TestPage.aspx](./CS/TestPage.aspx) (VB: [TestPage.aspx.vb](./VB/TestPage.aspx.vb))
+* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [TestPage.aspx](./CS/TestPage.aspx) (VB: [TestPage.aspx](./VB/TestPage.aspx))
 * [TestPage.aspx.cs](./CS/TestPage.aspx.cs) (VB: [TestPage.aspx.vb](./VB/TestPage.aspx.vb))
 <!-- default file list end -->
 # How to show the ASPxLoadingPanel while the content is loading inside the ASPxPopupControl
