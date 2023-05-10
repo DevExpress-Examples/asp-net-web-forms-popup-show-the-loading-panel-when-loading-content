@@ -12,7 +12,7 @@
 <!-- default file list end -->
 # How to show the ASPxLoadingPanel while the content is loading inside the ASPxPopupControl
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1945/)**
+**[[Run Online]](https://codecentral.devexpress.com/128565272/)**
 <!-- run online end -->
 
 
