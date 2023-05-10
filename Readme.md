@@ -1,15 +1,15 @@
-# Popup Control for ASP.NET Web Forms - How to show the loading panel on the content's loading
+# Popup Control for ASP.NET Web Forms - How to show the loading panel when loading content
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e1945/)**
 <!-- run online end -->
 
-This example demonstrates how use the popup control's client-side functionality to display the loading panel in a pop-up window when the content loading is slow.
+This example demonstrates how use the popup control's client-side functionality to display the loading panel in a pop-up window when content is loading slowly.
 
 ![Loading panel in pop-up window](loadingPanelInPopup.png)
 
 ## Overview
 
-The main idea is to call the popup control's client-side [GetContentIFrame](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.GetContentIFrame) method to get the control's IFrame. Then use the loading panel's [ShowInElement](https://docs.devexpress.com/AspNet/js-ASPxClientLoadingPanel.ShowInElement(htmlElement)) method to display the panel within the IFrame. When the content is loaded, hide the loading panel.
+The main idea is to call the popup control's client-side [GetContentIFrame](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.GetContentIFrame) method to get the control's IFrame. Then use the loading panel's [ShowInElement](https://docs.devexpress.com/AspNet/js-ASPxClientLoadingPanel.ShowInElement(htmlElement)) method to display the panel within the IFrame. When content is loaded, hide the loading panel.
 
 ```aspx
 <dx:ASPxLoadingPanel ID="lp" runat="server" ClientInstanceName="lp" />
