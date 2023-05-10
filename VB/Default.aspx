@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 <%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web" TagPrefix="dx" %>
@@ -15,11 +15,11 @@
 
     function OnPopupInit (s, e) {
        iframe = popup.GetContentIFrame();
-
-       // the "load" event is fired when the content has been already loaded 
+       
+       /* the "load" event is fired when the content has been already loaded */
        ASPxClientUtils.AttachEventToElement(iframe, 'load', OnContentLoaded);
     }
-
+    
     function OnPopupShown (s, e) {
         if (showPopup)
             lp.ShowInElement(iframe);
@@ -29,11 +29,11 @@
         showPopup = false;
         lp.Hide();
     }
-
+    
     function OnButtonClick (s, e) {
        showPopup = true;
        popup.SetContentUrl(txt.GetText());
-
+            
        popup.Show();
     }
     </script>
