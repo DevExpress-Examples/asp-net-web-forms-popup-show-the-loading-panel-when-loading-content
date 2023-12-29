@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Popup Control for ASP.NET Web Forms - How to show the loading panel when loading content
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128565272/)**
-<!-- run online end -->
 
 This example demonstrates how use the popup control's client-side functionality to display the loading panel in a pop-up window when content is loading slowly.
 
